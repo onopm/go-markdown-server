@@ -1,0 +1,5 @@
+package: github.com/onopm/go-markdown-server
+import:
+- package: github.com/russross/blackfriday
+- package: github.com/labstack/echo
+- package: github.com/lestrrat/go-file-rotatelogs

@@ -1,0 +1,41 @@
+hash: f81171e3e403a76fb4150122ff11c5e593aa62c9d672ffaed7df96ec04c43cf9
+updated: 2016-06-24T01:42:55.47479521+09:00
+imports:
+- name: bitbucket.org/tebeka/strftime
+  version: 2194253a23c0
+- name: github.com/dgrijalva/jwt-go
+  version: f0777076321ab64f6efc15a82d9d23b98539b943
+- name: github.com/labstack/echo
+  version: 647c0b4ec6440d7cd6c11606fd4c7150de1e5436
+  subpackages:
+  - engine/standard
+  - middleware
+  - engine
+  - log
+- name: github.com/labstack/gommon
+  version: 722aa12d41c236ce78ff48eac1cafe0107ecdc9d
+  subpackages:
+  - log
+  - bytes
+  - color
+- name: github.com/lestrrat/go-file-rotatelogs
+  version: bb1d28fd5ac7ec9873540d5bba975d009f271f67
+- name: github.com/mattn/go-colorable
+  version: 9056b7a9f2d1f2d96498d6d146acd1f9d5ed3d59
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- name: github.com/russross/blackfriday
+  version: 1d6b8e9301e720b08a8938b8c25c018285885438
+- name: github.com/shurcooL/sanitized_anchor_name
+  version: 10ef21a441db47d8b13ebcc5fd2310f636973c77
+- name: github.com/valyala/fasttemplate
+  version: 3b874956e03f1636d171bda64b130f9135f42cff
+- name: golang.org/x/net
+  version: bc3663df0ac92f928d419e31e0d2af22e683a5a2
+  subpackages:
+  - context
+- name: golang.org/x/sys
+  version: 62bee037599929a6e9146f29d10dd5208c43507d
+  subpackages:
+  - unix
+devImports: []
